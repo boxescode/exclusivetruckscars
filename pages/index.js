@@ -12,9 +12,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to ESCLUSIVE TRUCKS AND CARS
-        </h1>
+        <h2 className={styles.title}>
+        ESCLUSIVE TRUCKS AND CARS
+        </h2>
 
         <p className={styles.description}>
           Get started by editing{' '}
