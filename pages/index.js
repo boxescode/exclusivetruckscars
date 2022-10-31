@@ -15,7 +15,7 @@ export default function Home() {
       <Image src="/images/tucks2.jpeg" alt="truck" width={624} height={468} />
         <h2 className={styles.title}>
 
-        ESCLUSIVE TRUCKS & CARS
+        EXCLUSIVE TRUCKS & CARS
         </h2>
 
         <span className={styles.description}>
