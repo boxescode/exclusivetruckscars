@@ -15,18 +15,20 @@ export default function Home() {
       <Image src="/images/tucks2.jpeg" alt="truck" width={624} height={468} />
         <h2 className={styles.title}>
 
-        ESCLUSIVE TRUCKS AND CARS
+        ESCLUSIVE TRUCKS & CARS
         </h2>
 
-        <p className={styles.description}>
-          Comming soon
-        </p>
+        <span className={styles.description}>
+          Comming soon<br></br>
+          (305) 733-0126<br></br>
+          2900 SW 69th CT MIAMI, FL 3315
+        </span>
+       
+       
+          
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          
 
           
 
@@ -37,16 +39,8 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        
+         
       </footer>
     </div>
   )
